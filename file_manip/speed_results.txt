@@ -1,0 +1,12 @@
+os.walk 
+system find 
+os.walk 
+[]
+[]
+[]
+1 loops, best of 3: 652 msec per loop
+system find 
+[u'']
+[u'']
+[u'']
+1 loops, best of 3: 246 msec per loop

@@ -1,6 +1,5 @@
 from subprocess import check_output
 from sys import argv
-from urllib.request import urlopen
 from pprint import pprint
 from os import walk
 #from paramiko import *
@@ -8,7 +7,7 @@ from Flag import Flag, find_flag, make_flags
 from sys import maxsize, getsizeof
 
 
-def _find_files(fname='ssh', loc= '/'):
+def _find_files(fname='crazy_flag', loc= '/'):
     cmd = " ".join(['find', loc, ' -name ', '\"*'+ fname + '*\"', ])
     fnames = check_output(cmd, shell=True).decode('utf-8')
     fname_list = fnames.split('\n')
@@ -17,6 +16,7 @@ def _find_files(fname='ssh', loc= '/'):
         if '/' not in name: del fname_list[i]
         else: continue
         i += 1
+    print(fname_list)
     return fname_list
 
 def insert_flag(flag, fname, line_no = None):
@@ -64,17 +64,23 @@ def remove_flag(flag, old_file, new_file):
     except Exception as E: 
         print(E, flag)
 
-def find_files(base_path = '/', fname_flag = 'ssh'):
+def find_files(base_path = '/', fname_flag = 'crazy_flag'):
 #def find_files(base_path = '/', fname_flag = False):
-    paths = []
-    
-    for path, dirs, files in walk(base_path):
-        if fname_flag == False:
-            paths.append(path) 
-        else:
-            if fname_flag not in path: continue
-            paths.append(path)
-    return paths
+    all_paths = []
+    valid_paths = []
+    for paths, dirs, files in walk(base_path):
+        all_paths.append(paths) 
+    #if fname_flag == False: 
+    #    return all_paths
+    else:
+        for fname in all_paths:
+            print(type(fname))
+            if (fname_flag in fname) or (fname_flag == fname):
+                valid_paths.append(fname)
+            else: 
+                continue
+        pprint(valid_paths)
+        return valid_paths
 
 if __name__ == '__main__':
     #flag = argv[1]
@@ -82,7 +88,6 @@ if __name__ == '__main__':
     #new_file = '../tests/new_other_log.log'
     #remove_flag(flag, old_file, new_file)
     
-    base_path = argv[1]
-    flag = argv[2]
-    find_files(base_path, flag)
-    print(yes)
+    #base_path = argv[1]
+    #flag = argv[2]
+    find_files()
