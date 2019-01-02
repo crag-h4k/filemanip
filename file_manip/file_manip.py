@@ -45,8 +45,11 @@ def remove_line(flag, old_file, new_file):
                 new_lines.append(line)
             else: 
                 continue
+        
+        data = b''.join(new_lines)
+
         with open(new_file,'wb') as f: 
-            f.write(b''.join(new_lines))
+            f.write(data )
 
     except Exception as E: 
         print(E, flag)
