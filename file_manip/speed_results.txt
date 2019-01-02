@@ -1,2 +1,0 @@
-os.walk 
-system find 
