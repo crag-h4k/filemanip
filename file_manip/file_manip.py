@@ -4,6 +4,7 @@ from urllib.request import urlopen
 from pprint import pprint
 #from paramiko import *
 from Flag import Flag, find_flag, make_flags
+from sys import maxsize, getsizeof
 
 def find_files(fname, loc):
     cmd = " ".join(['find', loc, ' -name ', '\"*'+ fname + '*\"', ])
@@ -32,24 +33,26 @@ def insert_text(text, fname, line_no = None):
     return
 
 def remove_line(flag, old_file, new_file):
-    try: flag.encode()
-    except: print(type(flag))
-    #except: pass
+    try: 
+        flag = flag.encode()
+        new_lines = []
 
-    with open(old_file,'rb') as f: lines = f.readlines()
+        with open(old_file,'rb') as f:
+                lines = f.readlines()
 
-    for line in lines:
-        if flag not in line: continue
-        lines.remove(line)
+        for line in lines:
+            if flag not in line: 
+                new_lines.append(line)
+            else: 
+                continue
+        with open(new_file,'wb') as f: 
+            f.write(b''.join(new_lines))
 
-    new_data = b''.join(data_list)
-    
-    with open(new_file,'wb') as f: f.write(new_data)
-    return
+    except Exception as E: 
+        print(E, flag)
 
 if __name__ == '__main__':
-    #flag = argv[1]
-    #F_list = make_flags(find_flag(flag, '../tests'))
-    #[print(F.fname, F.line_no, F.line_text) for F in F_list]
-    fname = '../tests/test_log.log'
-    remove_line('deadlift', fname, fname)
+    flag = argv[1]
+    old_file = '../tests/other_log.log'
+    new_file = '../tests/new_other_log.log'
+    remove_line(flag, old_file, new_file)
