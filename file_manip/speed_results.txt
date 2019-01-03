@@ -69,3 +69,241 @@ Thu Jan 3 08:06:30 MST 2019
 Thu Jan 3 08:10:44 MST 2019
 1 loop, best of 5: 411 msec per loop
 
+Thu Jan 3 08:34:02 MST 2019
+
+Thu Jan 3 08:36:01 MST 2019
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:37:04 MST 2019
+
+Thu Jan 3 08:38:40 MST 2019 _remove_flag
+1 loop, best of 5: 12.9 msec per loop
+
+Thu Jan 3 08:43:38 MST 2019 _remove_flag
+1 loop, best of 5: 12.9 msec per loop
+
+Thu Jan 3 08:43:38 MST 2019 remove_flag
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:44:29 MST 2019 _remove_flag
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:44:29 MST 2019 remove_flag
+1 loop, best of 5: 12.6 msec per loop
+
+Thu Jan 3 08:45:24 MST 2019 _remove_flag
+1 loop, best of 5: 12.8 msec per loop
+
+Thu Jan 3 08:45:24 MST 2019 remove_flag
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:45:26 MST 2019 _remove_flag
+1 loop, best of 5: 12.8 msec per loop
+
+Thu Jan 3 08:45:26 MST 2019 remove_flag
+1 loop, best of 5: 12.5 msec per loop
+
+Thu Jan 3 08:45:28 MST 2019 _remove_flag
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:45:29 MST 2019 remove_flag
+1 loop, best of 5: 12.7 msec per loop
+
+Thu Jan 3 08:45:30 MST 2019 _remove_flag
+1 loop, best of 5: 12.8 msec per loop
+
+Thu Jan 3 08:45:30 MST 2019 remove_flag
+1 loop, best of 5: 12.6 msec per loop
+
+Thu Jan 3 08:45:37 MST 2019 _remove_flag
+100 loops, best of 5: 12.8 msec per loop
+
+Thu Jan 3 08:45:43 MST 2019 remove_flag
+100 loops, best of 5: 12.6 msec per loop
+
+Thu Jan 3 08:46:22 MST 2019 _remove_flag
+1000 loops, best of 5: 12.8 msec per loop
+
+Thu Jan 3 08:47:26 MST 2019 remove_flag
+1000 loops, best of 5: 12.6 msec per loop
+
+Thu Jan 3 08:51:51 MST 2019 _remove_flag
+1 loop, best of 5: 203 msec per loop
+
+Thu Jan 3 08:51:52 MST 2019 remove_flag
+1 loop, best of 5: 205 msec per loop
+
+Thu Jan 3 08:52:05 MST 2019 _remove_flag
+100 loops, best of 5: 204 msec per loop
+
+Thu Jan 3 08:53:47 MST 2019 remove_flag
+100 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:00:46 MST 2019 _remove_flag
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+object of type '_io.BufferedReader' has no len() b'is'
+10 loops, best of 5: 6.36 usec per loop
+
+Thu Jan 3 09:00:46 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:08:15 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:08:26 MST 2019 remove_flag
+10 loops, best of 5: 205 msec per loop
+
+Thu Jan 3 09:09:24 MST 2019 _remove_flag
+10 loops, best of 5: 204 msec per loop
+
+Thu Jan 3 09:09:34 MST 2019 remove_flag
+10 loops, best of 5: 207 msec per loop
+
+Thu Jan 3 09:10:19 MST 2019 _remove_flag
+10 loops, best of 5: 204 msec per loop
+
+Thu Jan 3 09:10:30 MST 2019 remove_flag
+10 loops, best of 5: 205 msec per loop
+
+Thu Jan 3 09:11:38 MST 2019 _remove_flag
+
+Thu Jan 3 09:11:38 MST 2019 remove_flag
+
+Thu Jan 3 09:12:52 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:13:03 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:14:11 MST 2019 _remove_flag
+10 loops, best of 5: 204 msec per loop
+
+Thu Jan 3 09:14:21 MST 2019 remove_flag
+10 loops, best of 5: 205 msec per loop
+
+Thu Jan 3 09:14:44 MST 2019 _remove_flag
+1 loop, best of 5: 203 msec per loop
+
+Thu Jan 3 09:14:45 MST 2019 remove_flag
+1 loop, best of 5: 205 msec per loop
+
+Thu Jan 3 09:15:05 MST 2019 _remove_flag
+1 loop, best of 5: 203 msec per loop
+
+Thu Jan 3 09:15:06 MST 2019 remove_flag
+1 loop, best of 5: 205 msec per loop
+
+Thu Jan 3 09:15:14 MST 2019 _remove_flag
+100 loops, best of 5: 205 msec per loop
+
+Thu Jan 3 09:16:57 MST 2019 remove_flag
+100 loops, best of 5: 207 msec per loop
+
+Thu Jan 3 09:21:50 MST 2019 _remove_flag
+10 loops, best of 5: 204 msec per loop
+
+Thu Jan 3 09:22:00 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:22:39 MST 2019 _remove_flag
+
+Thu Jan 3 09:24:55 MST 2019 remove_flag
+
+Thu Jan 3 09:25:02 MST 2019 _remove_flag
+100 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:26:45 MST 2019 remove_flag
+100 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:29:10 MST 2019 _remove_flag
+
+Thu Jan 3 09:29:24 MST 2019 remove_flag
+
+Thu Jan 3 09:29:29 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:29:39 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:30:25 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:30:35 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:32:07 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:32:18 MST 2019 remove_flag
+10 loops, best of 5: 206 msec per loop
+
+Thu Jan 3 09:32:46 MST 2019 _remove_flag
+10 loops, best of 5: 203 msec per loop
+
+Thu Jan 3 09:32:56 MST 2019 remove_flag
+10 loops, best of 5: 205 msec per loop
+
+Thu Jan 3 09:40:10 MST 2019 _remove_flag
+10 loops, best of 5: 213 msec per loop
+
+Thu Jan 3 09:40:20 MST 2019 remove_flag
+10 loops, best of 5: 200 msec per loop
+
+Thu Jan 3 09:40:55 MST 2019 _remove_flag
+
+Thu Jan 3 09:41:05 MST 2019 remove_flag
+
+Thu Jan 3 09:41:28 MST 2019 _remove_flag
+10 loops, best of 5: 214 msec per loop
+
+Thu Jan 3 09:41:39 MST 2019 remove_flag
+10 loops, best of 5: 215 msec per loop
+
