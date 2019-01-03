@@ -10,3 +10,28 @@ system find
 [u'']
 [u'']
 1 loops, best of 3: 246 msec per loop
+os.walk 
+1 loops, best of 3: 661 msec per loop
+os.walk 
+1 loops, best of 3: 673 msec per loop
+os.walk 
+1 loops, best of 3: 653 msec per loop
+os.walk 
+1 loops, best of 3: 656 msec per loop
+os.walk 
+1 loops, best of 3: 655 msec per loop
+os.walk 
+10 loops, best of 3: 650 msec per loop
+os.walk 
+10 loops, best of 3: 646 msec per loop
+os.walk 
+10 loops, best of 3: 655 msec per loop
+os.walk 
+os.walk 
+10 loops, best of 3: 647 msec per loop
+os.walk 
+os.walk 
+10 loops, best of 3: 654 msec per loop
+os.walk 
+10 loops, best of 3: 655 msec per loop
+os.walk 
