@@ -1,8 +1,6 @@
-from subprocess import check_output
-from sys import argv
 from pprint import pprint
 from os import walk
-#from paramiko import *
+
 from Flag import Flag, find_flag, make_flags
 
 
