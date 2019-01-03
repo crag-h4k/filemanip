@@ -1,14 +1,4 @@
-os.walk 
-system find 
-os.walk 
-[]
-[]
-[]
 1 loops, best of 3: 652 msec per loop
-system find 
-[u'']
-[u'']
-[u'']
 1 loops, best of 3: 246 msec per loop
 os.walk 
 1 loops, best of 3: 661 msec per loop
@@ -34,4 +24,48 @@ os.walk
 10 loops, best of 3: 654 msec per loop
 os.walk 
 10 loops, best of 3: 655 msec per loop
-os.walk 
+os.walk  Thu Jan 3 07:13:49 MST 2019
+1 loop, best of 5: 409 msec per loop
+os.walk  Thu Jan 3 07:24:08 MST 2019
+1 loop, best of 5: 411 msec per loop
+os.walk Thu Jan 3 07:29:53 MST 2019
+1 loop, best of 5: 406 msec per loop
+os.walk Thu Jan 3 07:30:03 MST 2019
+1 loop, best of 5: 409 msec per loop
+os.walk Thu Jan 3 07:30:09 MST 2019
+os.walk Thu Jan 3 07:31:28 MST 2019
+1 loop, best of 5: 413 msec per loop
+
+Thu Jan 3 07:32:26 MST 2019
+1 loop, best of 5: 409 msec per loop
+
+Thu Jan 3 07:32:30 MST 2019
+1 loop, best of 5: 409 msec per loop
+
+Thu Jan 3 07:33:03 MST 2019
+10 loops, best of 5: 412 msec per loop
+
+Thu Jan 3 07:59:38 MST 2019
+1 loop, best of 5: 413 msec per loop
+
+Thu Jan 3 08:00:05 MST 2019
+1 loop, best of 5: 410 msec per loop
+
+Thu Jan 3 08:00:09 MST 2019
+1 loop, best of 5: 414 msec per loop
+
+Thu Jan 3 08:01:12 MST 2019
+1 loop, best of 5: 413 msec per loop
+
+Thu Jan 3 08:01:43 MST 2019
+10 loops, best of 5: 415 msec per loop
+
+Thu Jan 3 08:02:33 MST 2019
+10 loops, best of 5: 412 msec per loop
+
+Thu Jan 3 08:06:30 MST 2019
+100 loops, best of 5: 408 msec per loop
+
+Thu Jan 3 08:10:44 MST 2019
+1 loop, best of 5: 411 msec per loop
+

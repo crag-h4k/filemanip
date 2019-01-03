@@ -1,8 +1,14 @@
 from pprint import pprint
 from os import walk
+from unicodedata import normalize
+from sys import argv
 
-from Flag import Flag, find_flag, make_flags
 
+def normalize_str(string):
+    return normalize("NFKD", string.casefold())
+
+def compare_normalized(str0, str1):
+    return normalize_str(str0) == normalize_str(str1)
 
 def insert_flag(flag, fname, line_no = None):
     try:
@@ -21,7 +27,7 @@ def insert_flag(flag, fname, line_no = None):
             new_lines = b''.join(lines)
 
             with open(fname, 'bw+') as f: f.write(new_lines)
-
+ 
     except Exception as e: print(e)
 
 def remove_flag(flag, old_file, new_file):
@@ -45,13 +51,17 @@ def remove_flag(flag, old_file, new_file):
     except Exception as E: 
         print(E, flag)
 
-def find_files(base_path = '/', flag = 'find_me'):
+def find_files(base_path = '/', flag = 'ssh'):
     paths = []
+    _flag = normalize_str(flag)
     for dirpath, dirs, files in walk(base_path):
         for fname in files:
-            if flag not in fname: continue
+            _fname = normalize_str(fname)
+            if _flag not in _fname: continue
             paths.append('/'.join([dirpath, fname]))
     return paths
 
 if __name__ == '__main__':
-    pprint(find_files())
+    base_path = argv[1]
+    flag = argv[2]
+    pprint(find_files(base_path, flag))
