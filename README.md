@@ -17,3 +17,12 @@
 ### remove_flag: Removes a flag entirely from a file. *old_file and new_file can be the same file
 
     remove_flag(flag, old_file, new_file) 
+
+### normalize_str: takes a string and converts to lowercase and normalized to NFKD for tests and comparisons
+
+    normalize_str(string)
+
+### compare_normalized: compares strings that are normalized *very very useful when comparing strangly formatted files
+    
+    compare_normalized(string_0, string_1)
+    
