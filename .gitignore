@@ -1,5 +1,6 @@
-module.egg-info/*
-file_manip/__pycache__
+filemanip.egg-info/*
+filemanip/__pycache__
 build/*
 dist/*
 *.pyc
+*.ipyn*
