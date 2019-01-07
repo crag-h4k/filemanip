@@ -25,4 +25,9 @@
 ### compare_normalized: compares strings that are normalized *very very useful when comparing strangly formatted files
     
     compare_normalized(string_0, string_1)
+
+
+## To Do:
+
+- add metadata manipulation
     

@@ -1,7 +1,5 @@
-from pprint import pprint
 from os import walk
 from unicodedata import normalize
-from sys import argv
 
 
 def normalize_str(string):
@@ -10,7 +8,7 @@ def normalize_str(string):
 def compare_normalized(str0, str1):
     return normalize_str(str0) == normalize_str(str1)
 
-def find_files(base_path = '/', flag = 'ssh'):
+def find_files(base_path, flag):
     paths = []
     _flag = normalize_str(flag)
     for dirpath, dirs, files in walk(base_path):
@@ -40,7 +38,7 @@ def insert_flag(flag, fname, line_no = None):
  
     except Exception as e: print(e)
 
-def replace_flag(old_flag = 'is', new_flag = 'was', fname = './test_logs/test_log.log'):
+def replace_flag(old_flag, new_flag, fname):
     try:  
         if type(old_flag) is not str: old_flag = bytes(flag)
         else: old_flag = bytes(old_flag, encoding='utf-8') 
@@ -68,7 +66,7 @@ def replace_flag(old_flag = 'is', new_flag = 'was', fname = './test_logs/test_lo
         print(E)
     return
 
-def remove_flag(flag = 1, old_file = './test_logs/other_log.log', new_file = './test_logs/new_other_log.log'): 
+def remove_flag(flag, old_file, new_file): 
     new_lines = []
     try:  
         if type(flag) is not str: flag = bytes(flag)
@@ -85,12 +83,3 @@ def remove_flag(flag = 1, old_file = './test_logs/other_log.log', new_file = './
 
     except Exception as E: 
         print(E, flag)
-
-if __name__ == '__main__':
-    #flag = argv[1]
-    #old_file = argv[2]
-    #new_file = argv[3]
-    #flag = 'summer'
-    #old_file = './test_logs/other_log.log'
-    #new_file = './test_logs/new_other_log.log'
-    replace_flag()
