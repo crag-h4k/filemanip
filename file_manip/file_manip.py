@@ -40,8 +40,34 @@ def insert_flag(flag, fname, line_no = None):
  
     except Exception as e: print(e)
 
-def replace_flag(old_flag = 'is', new_flag = 'was', fname = './test_logs/test_log.log')
+def replace_flag(old_flag = 'is', new_flag = 'was', fname = './test_logs/test_log.log'):
+    try:  
+        if type(old_flag) is not str: old_flag = bytes(flag)
+        else: old_flag = bytes(old_flag, encoding='utf-8') 
+
+        if type(new_flag) is not str: new_flag = bytes(flag)
+        else: new_flag = bytes(new_flag, encoding='utf-8') 
+
+        new_lines = []
+        valid_lines = []
+        
+        with open(fname,'rb') as f:
+            for line in f:
+                if old_flag not in line: 
+                    new_lines.append(line)
+                    continue
+                new_line = line.replace(old_flag, new_flag)
+                new_lines.append(new_line)
+                print(new_line)
+            
+        valid_lines = b''.join(new_lines)
+
+        with open(fname, 'bw') as f: f.write(valid_lines)
+            
+    except Exception as E:
+        print(E)
     return
+
 def remove_flag(flag = 1, old_file = './test_logs/other_log.log', new_file = './test_logs/new_other_log.log'): 
     new_lines = []
     try:  
@@ -61,10 +87,10 @@ def remove_flag(flag = 1, old_file = './test_logs/other_log.log', new_file = './
         print(E, flag)
 
 if __name__ == '__main__':
-    flag = argv[1]
-    old_file = argv[2]
-    new_file = argv[3]
+    #flag = argv[1]
+    #old_file = argv[2]
+    #new_file = argv[3]
     #flag = 'summer'
     #old_file = './test_logs/other_log.log'
     #new_file = './test_logs/new_other_log.log'
-    remove_flag(flag, old_file, new_file)
+    replace_flag()
