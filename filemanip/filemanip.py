@@ -83,3 +83,17 @@ def remove_flag(flag, old_file, new_file):
 
     except Exception as E: 
         print(E, flag)
+
+def change_meta(File)
+    return
+'''
+drwxr-xr-x 4 l0k1 l0k1 4.0K Jan  7 15:59 .
+drwxr-xr-x 7 l0k1 l0k1 4.0K Jan  7 15:54 ..
+-rw-r--r-- 1 l0k1 l0k1 2.5K Jan  7 15:56 filemanip.py
+-rw-r--r-- 1 l0k1 l0k1  129 Jan  7 15:38 __init__.py
+drwxr-xr-x 2 l0k1 l0k1 4.0K Jan  7 15:57 .ipynb_checkpoints
+-rw-r--r-- 1 l0k1 l0k1 9.2K Jan  3 11:30 speed_results.txt
+-rw-r--r-- 1 l0k1 l0k1  452 Jan  3 11:30 speed_test.sh
+drwxr-xr-x 2 l0k1 l0k1 4.0K Jan  3 11:30 test_logs
+-rw-r--r-- 1 l0k1 l0k1 1.3K Jan  7 15:59 Untitled.ipynb
+'''
